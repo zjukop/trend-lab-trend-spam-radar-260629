@@ -1,0 +1,12 @@
+[project]
+name = "trend-spam-radar"
+version = "0.1.0"
+description = "A tiny viral tool that turns suspicious trending-repo dumps into a visual ‘trend spam radar,’ helping developers spot star-farmed malware-bait and clone clusters before they click download links."
+requires-python = ">=3.11"
+
+[project.scripts]
+trend-spam-radar = "trend_spam_radar.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
